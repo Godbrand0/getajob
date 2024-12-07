@@ -22,15 +22,12 @@ export default function HeroSection() {
           styleClass="default-paragraph"
         />
         <div className="search-input">
-          <input
-            type="text"
-            placeholder="Search for products,brands and categories"
-          />
-          <SearchIcon styleIcon="icon" />
+          <input type="text" placeholder="Enter keywords, skill, interest" />
+          <SearchIcon className="icon" />
         </div>
-        <div>
+        <div className="hero-text-2">
           <p>Trusted by:</p>
-          <div>
+          <div className="hero-img">
             <img src={payStack} alt="" />
             <img src={google} alt="" />
             <img src={kpmg} alt="" />

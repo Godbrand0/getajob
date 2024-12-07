@@ -41,29 +41,63 @@ nav {
   align-items: center;
   top: 132px;
   position: absolute;
-  margin: 0 20px;
+  margin: 0 70px;
+  gap: 70px;
 }
-
+.hero-text {
+  width: 500px;
+}
+.hero-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 54px;
+}
+.hero-text h1 span {
+  color: #027a48;
+}
 .search-input {
   display: flex;
-  border-radius: 5px;
+  border-radius: 50px;
+  border: 1px #e5e5e5;
+  height: 48px;
   overflow: hidden;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  width: 600px;
+  width: 532px;
 }
 .search-input input {
   flex: 1;
-  padding: 10px 10px;
-  font-size: 13px;
+  padding: 10px 20px;
+  font-size: 14px;
   border: none;
   outline: none;
 }
+.search-input input::placeholder {
+  color: #9b9b9b;
+  font-weight: 400;
+}
 .search-input .icon {
-  background-color: #fba100; /* Pink button */
+  background-color: #027a48; /* Pink button */
   color: white;
   font-size: 16px;
-  font-weight: bold;
   border: none;
-  padding: 10px 20px;
+  padding: 15px 20px;
   cursor: pointer;
+}
+
+.hero-text-2 {
+  margin: 50px auto;
+}
+.hero-text-2 p {
+  font-size: 16px;
+  font-weight: 600px;
+  line-height: 24px;
+  color: #3f403f;
+}
+.hero-img {
+  display: flex;
+}
+.hero-img img {
+  width: 156px;
+  height: 33px;
+  object-fit: contain;
 }
