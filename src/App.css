@@ -101,3 +101,63 @@ nav {
   height: 33px;
   object-fit: contain;
 }
+.recommend {
+  margin: 40px 55px;
+}
+
+.job-search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.job {
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  padding: 10px 20px;
+}
+.time {
+  font-size: 12px;
+  line-height: 17px;
+  color: #9b9b9b;
+  background-color: #cac9c9a4;
+  padding: 4px 9px;
+  border-radius: 50px;
+  display: flex;
+  justify-self: right;
+  width: 52px;
+}
+.image {
+  height: 31px;
+  width: 166px;
+  object-fit: contain;
+}
+.position {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: center;
+}
+.location-status {
+  display: flex;
+  justify-content: space-between;
+}
+.location-status .location {
+  font-size: 16px;
+  line-height: 24px;
+}
+.company {
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 600;
+}
+.location-status .status {
+  font-size: 12px;
+  line-height: 18px;
+  color: #06942a;
+  background-color: #d4f4dc;
+  border-radius: 50px;
+  padding: 3px 9px;
+  display: flex;
+  align-items: center;
+}
