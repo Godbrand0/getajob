@@ -161,3 +161,22 @@ nav {
   display: flex;
   align-items: center;
 }
+
+.work {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 150px 70px;
+  gap: 30px;
+}
+.image_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.vertical_image {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import background from "./assets/Rectangle.png";
 import Recommended from "./components/Recommended";
+import Work from "./components/Work";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Header />
       <HeroSection />
       <Recommended />
+      <Work />
     </div>
   );
 }

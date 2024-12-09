@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function check(props) {
+export default function Check(props) {
   return (
     <svg
       width="42"
