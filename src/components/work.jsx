@@ -22,22 +22,22 @@ export default function Work() {
 
         <Image source={mask} content="Securities Trader" place="@Mckensie" />
       </div>
-      <div>
+      <div className="work_details">
         <h3>How it works</h3>
         <Paragraph text="Getajob helps you find the right job easily. Getajob helps you find the right job easily. Getajob helps you find the right job easily." />
-        <div>
+        <div className="work_detail">
           <h4>
             <Check /> Search Jobs
           </h4>
           <Paragraph text="We have jobs in the most popular industries and with top companies. Plus, you can create alerts so you never miss a job opportunity." />
         </div>
-        <div>
+        <div className="work_detail">
           <h4>
             <Check /> Create a Profile and Get Noticed
           </h4>
           <Paragraph text="Create a profile to showcase your skills and experience so recruiters can find you. Upload your CV so you can apply for jobs quickly and easily." />
         </div>
-        <div>
+        <div className="work_detail">
           <h4>
             <Check /> Apply for jobs
           </h4>

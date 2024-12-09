@@ -167,7 +167,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   margin: 150px 70px;
-  gap: 30px;
+  gap: 70px;
 }
 .image_container {
   display: flex;
@@ -178,5 +178,21 @@ nav {
 .vertical_image {
   display: flex;
   flex-direction: column;
+  gap: 20px;
+}
+.work_detail {
+  margin-top: 40px;
+}
+.work_details h3 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 41px;
+}
+.work_detail h4 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
   gap: 20px;
 }
