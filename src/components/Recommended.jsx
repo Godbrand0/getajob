@@ -51,7 +51,7 @@ export default function Recommended() {
         {jobs.map((job) => (
           <div className="job">
             <p className="time">{job.time}</p>
-            <img src={job.logo} alt="" className="image" />
+            <img key={job.id} src={job.logo} alt="" className="image" />
             <p className="position">{job.position}</p>
             <p className="company">{job.company}</p>
             <div className="location-status">

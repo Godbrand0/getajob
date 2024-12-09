@@ -34,7 +34,7 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="image-container">
         <img src={bigImage} alt="" />
       </div>
     </div>
