@@ -6,6 +6,7 @@ import Recommended from "./components/Recommended";
 import Work from "./components/Work";
 import Categories from "./components/Categories";
 import Network from "./components/Network";
+import Customers from "./components/Customers";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Work />
       <Categories />
       <Network />
+      <Customers />
     </div>
   );
 }

@@ -1,13 +1,13 @@
 import React from "react";
 import "../App.css";
-import HeaderImg from "../assets/getajob_logo-removebg-preview.png";
+import Logo from "../icons/Logo";
 
 export default function Header() {
   return (
     <div>
       <header className="header">
         <div>
-          <img src={HeaderImg} alt="" />
+          <Logo />
         </div>
         <nav>
           <p>Companies</p>

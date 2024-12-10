@@ -1,0 +1,26 @@
+.cust_style {
+  position: relative;
+  border: 2px solid #2b8a3e; /* Border color */
+  border-radius: 30px; /* Same rounding as the image, slightly larger */
+  z-index: 0; /* Make it behind the image */
+  width: 340px;
+  height: 350px;
+}
+.cust_image {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+}
+.hero_style {
+  position: relative;
+  border: 2px solid #2b8a3e; /* Border color */
+  border-radius: 20px; /* Same rounding as the image, slightly larger */
+  z-index: 0; /* Make it behind the image */
+  width: 550px;
+  height: 700px;
+}
+.hero_image {
+  position: absolute;
+  top: -42px;
+  left: -90px;
+}

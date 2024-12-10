@@ -7,6 +7,7 @@ import payStack from "../assets/paystack-removebg-preview.png";
 import google from "../assets/google-removebg-preview.png";
 import kpmg from "../assets/kpmg-removebg-preview.png";
 import bigImage from "../assets/Mask Group.png";
+import CustomerImage from "../reuse/CustomerImage";
 
 export default function HeroSection() {
   return (
@@ -34,9 +35,11 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-      <div className="image-container">
-        <img src={bigImage} alt="" />
-      </div>
+      <CustomerImage
+        Cust={bigImage}
+        CustStyle="hero_style"
+        cust_image="hero_image"
+      />
     </div>
   );
 }

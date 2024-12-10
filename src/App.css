@@ -102,31 +102,6 @@ nav {
   object-fit: contain;
 }
 
-.image-container {
-  position: relative;
-  display: inline-block;
-}
-
-.image-container img {
-  display: block;
-  border-radius: 10px; /* Rounded corners */
-  z-index: 1; /* Ensure it's on top of the pseudo-element */
-  position: relative;
-  width: 600px;
-  height: 700px;
-}
-
-.image-container::before {
-  content: "";
-  position: absolute;
-  top: 50px; /* Adjust to create the offset */
-  left: 70px; /* Adjust to create the offset */
-  right: 0;
-  bottom: -20px;
-  border: 2px solid #2b8a3e; /* Border color */
-  border-radius: 15px; /* Same rounding as the image, slightly larger */
-  z-index: 0; /* Make it behind the image */
-}
 .recommend {
   margin: 40px 55px;
 }
@@ -308,4 +283,44 @@ nav {
 .logo-item img {
   max-width: 70%;
   max-height: 70%;
+}
+.customer_section {
+  margin: 30px 150px;
+}
+.customer_section h2 {
+  font-size: 36px;
+  line-height: 54px;
+  margin: 20px auto;
+}
+.customer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 60px auto;
+}
+.customer_texts {
+  width: 60%;
+}
+.customer_texts h4 {
+  margin-top: 30px;
+  font-size: 21px;
+}
+.customer_texts p {
+  margin-top: 50px;
+}
+.customer_texts .tex {
+  color: #9b9b9b;
+  font-size: 21px;
+  line-height: 23px;
+  margin-top: -10px;
+}
+.customer_images {
+  position: relative;
+}
+.arrows {
+  float: right;
+}
+.quotes {
+  position: absolute;
+  top: 20px;
 }
