@@ -7,6 +7,8 @@ import Work from "./components/Work";
 import Categories from "./components/Categories";
 import Network from "./components/Network";
 import Customers from "./components/Customers";
+import GetStarted from "./components/GetStarted";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
       <Categories />
       <Network />
       <Customers />
+      <GetStarted />
+      <Footer />
     </div>
   );
 }

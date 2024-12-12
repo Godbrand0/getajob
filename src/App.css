@@ -324,3 +324,65 @@ nav {
   position: absolute;
   top: 20px;
 }
+.get_started {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.get_text {
+  color: #ffffff;
+  position: absolute;
+  top: 50px;
+  left: 550px;
+}
+.get_text h3 {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 72px;
+}
+.get_text p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-top: -37px;
+}
+.get_text button {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  background-color: #06942a;
+  color: #ffffff;
+  border-radius: 50px;
+  height: 50px;
+  width: 229px;
+  border: none;
+}
+.footer_section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px 50px;
+  margin-top: 100px;
+}
+.footer_section ul {
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+}
+.footer_section li {
+  list-style: none;
+  font-size: 18px;
+  line-height: 20px;
+  margin: 10px auto;
+}
+.footer_1 {
+  width: 300px;
+  text-align: left;
+}
+.footer_5 ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
