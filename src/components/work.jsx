@@ -16,11 +16,22 @@ export default function Work() {
             source={maskLady}
             content="Product Analyst"
             place="@Paystack"
+            work_style="work_image"
           />
-          <Image source={maskBlack} content="HR Manager" place="@Paystack" />
+          <Image
+            source={maskBlack}
+            work_style="work_image"
+            content="HR Manager"
+            place="@Paystack"
+          />
         </div>
 
-        <Image source={mask} content="Securities Trader" place="@Mckensie" />
+        <Image
+          source={mask}
+          work_style="work_image"
+          content="Securities Trader"
+          place="@Mckensie"
+        />
       </div>
       <div className="work_details">
         <h3>How it works</h3>

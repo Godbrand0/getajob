@@ -19,3 +19,15 @@
 .text span {
   color: #06942a;
 }
+
+@media screen and (max-width: 768px) {
+  .work_images {
+    width: 150px;
+    height: 210px;
+  }
+  .work_image {
+  }
+  .text {
+    margin-top: 10px;
+  }
+}

@@ -24,3 +24,15 @@
   top: -42px;
   left: -90px;
 }
+
+@media screen and (max-width: 768px) {
+  .cust_style {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+  .cust_image {
+    width: 240px;
+    height: 250px;
+  }
+}

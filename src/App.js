@@ -13,7 +13,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
-      <img src={background} alt="" />
+      <img src={background} alt="" className="background" />
       <Header />
       <HeroSection />
       <Recommended />

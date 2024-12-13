@@ -116,7 +116,13 @@ nav {
   width: 400px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
   padding: 10px 20px;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
 }
+.job:hover {
+  transform: translateY(-15px);
+}
+
 .time {
   font-size: 12px;
   line-height: 17px;
@@ -182,7 +188,7 @@ nav {
   flex-direction: column;
   gap: 20px;
 }
-.work_detail {
+.work_details .work_detail {
   margin-top: 40px;
 }
 .work_details h3 {
@@ -385,4 +391,107 @@ nav {
   align-items: center;
   justify-content: center;
   gap: 15px;
+}
+@media screen and (max-width: 768px) {
+  .header {
+    width: 360px;
+    left: 20px;
+  }
+  nav {
+    display: none;
+  }
+
+  .hero-text {
+    width: 350px;
+    gap: 40px;
+    margin: 0 10px;
+  }
+  .hero {
+    margin: 0 10px;
+  }
+  .logo {
+    width: 70px;
+    width: 70px;
+  }
+  .background {
+    width: 100%;
+    height: 100vh;
+  }
+  .customer_section {
+    margin: 20px 30px;
+  }
+  .customer_section h2 {
+    font-size: 25px;
+  }
+  .customer_container {
+    display: block;
+  }
+  .customer_texts {
+    width: 100%;
+  }
+  .search-input {
+    width: 300px;
+  }
+  .hero_style {
+    display: none;
+  }
+  .work {
+    display: block;
+    width: 100%;
+    align-items: center;
+    margin: 100px 10px;
+  }
+  .vertical_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .image_container {
+    display: none;
+  }
+  .work_details {
+    width: 100%;
+  }
+  .get_started {
+    display: none;
+  }
+  .footer_section {
+    display: block;
+  }
+  .network_section {
+    display: block;
+    padding: 10px 20px;
+  }
+  .p {
+    display: none;
+  }
+  .network_text {
+    max-width: 100%;
+  }
+  .category {
+    display: grid;
+    grid-template-columns: repeat(2, 160px);
+    gap: 20px;
+  }
+  .categories {
+    margin: 20px 10px;
+  }
+  .arrows {
+    margin-top: -30px;
+  }
+  .arrows img {
+    width: 30px;
+  }
+  .quotes {
+    width: 70px;
+    height: 50px;
+    top: -20px;
+  }
+  .customer_texts {
+    margin-top: 100px;
+  }
+  .customer_texts p {
+    margin-top: 50px;
+  }
 }
