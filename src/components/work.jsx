@@ -35,7 +35,7 @@ export default function Work() {
       </div>
       <div className="work_details">
         <h3>How it works</h3>
-        <Paragraph text="Getajob helps you find the right job easily. Getajob helps you find the right job easily. Getajob helps you find the right job easily." />
+        <Paragraph text="Getajob helps you find the right job easily." />
         <div className="work_detail">
           <h4>
             <Check /> Search Jobs
